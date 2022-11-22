@@ -1,0 +1,95 @@
+*{font-family: "Montserrat"; font-weight: bold; outline: none;}
+
+body {
+	background: radial-gradient(#FA16FD,#FA16FD,#000);
+	padding-top: 20px;
+}
+
+.container {
+	width: 40%;
+	margin: 15px auto;
+	border-radius: 8px;
+	box-shadow: 0 0 50px #FFF;
+	padding: 30px;
+	background: linear-gradient(30deg, #FFF,#FFF,#FFE3FF);
+	color: #000;
+}
+
+input {
+	display: block;
+	border-radius: 5px;
+	border: 2px solid #FA16FD;
+	color: #000;
+	background: transparent;
+	margin: 12px auto;
+	text-align: center;
+	padding: 10px;
+	width: 90%;
+}
+
+.container a.link {
+	display: block;
+	border-radius: 5px;
+	border: 2px solid #FA16FD;
+	color: #000;
+	background: #FF63FF;
+	margin: 12px auto;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	width: 200px;
+}
+
+button {
+	background: transparent; border: none; cursor: pointer;
+}
+
+.container a.link:hover {border-color: #242424; border-radius: 10px; transition: ease .3s all; color: #FFF; background: #FA16FD;}
+
+.topic:not(.pic) {
+	display: none;
+	margin: 8px auto;
+	border-radius: 0px;
+	padding: 0 12px;
+	border-left: 2px solid #FA16FD;
+}
+
+.container h1 {text-align: center;}
+
+.container img {
+	display: block;
+	width: 300px;
+	text-align: center;
+	margin: auto;
+}
+
+.container p {
+	color: #939393;
+	line-height: 20px;
+}
+
+.container h3 {
+	color: #DDD7D7;
+}
+
+.container .contact {
+	list-style-type: none;
+}
+
+.container .contact li {
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+}
+
+.container .contact li a {
+	color: #FFF;
+	font-size: 20px;
+	padding-right: 15px;
+}
+
+.container .contact li a:hover {color: #000; transition: ease .3s color;}
+
+@media (max-width: 800px) {
+.container {width: 90%; padding: 12px;}
+}
